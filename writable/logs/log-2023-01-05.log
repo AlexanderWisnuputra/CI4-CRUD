@@ -1,0 +1,1220 @@
+CRITICAL - 2023-01-05 08:06:18 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-05 08:08:41 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 222.
+ 1 SYSTEMPATH\CodeIgniter.php(222): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-01-05 02:30:42 --> Invalid file: welcome_message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:31:25 --> Invalid file: welcome_message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:31:36 --> Invalid file: welcome_message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:31:43 --> Class "App\Controllers\Controller" not found
+in APPPATH\Controllers\Home.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(283): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 5 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:32:02 --> Invalid file: welcome_message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:32:02 --> Invalid file: welcome_message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:32:24 --> Invalid file: welcome_message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:40:57 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:40:58 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:57:06 --> CodeIgniter\Router\RouteCollection::get(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\ci4\app\Config\Routes.php on line 38
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(38): CodeIgniter\Router\RouteCollection->get('C:\\', 'Home::index', 'Product::index')
+ 2 SYSTEMPATH\CodeIgniter.php(787): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:57:25 --> CodeIgniter\Router\RouteCollection::post(): Argument #3 ($options) must be of type ?array, string given, called in C:\xampp\htdocs\ci4\app\Config\Routes.php on line 38
+in SYSTEMPATH\Router\RouteCollection.php on line 896.
+ 1 APPPATH\Config\Routes.php(38): CodeIgniter\Router\RouteCollection->post('C:\\', 'Home::index', 'Product::index')
+ 2 SYSTEMPATH\CodeIgniter.php(787): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 02:58:30 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:05:58 --> login filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\Filters\Filters->enableFilter('login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:06:13 --> login filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\Filters\Filters->enableFilter('login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:08:44 --> login filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\Filters\Filters->enableFilter('login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:10:39 --> login filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\CodeIgniter.php(444): CodeIgniter\Filters\Filters->enableFilter('login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:11:22 --> login filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\Filters\Filters.php(369): CodeIgniter\Filters\Filters->enableFilter('login', 'before')
+ 3 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(60): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\Commands\Utilities\Routes\FilterCollector.php(59): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('C:\\')
+ 5 SYSTEMPATH\Commands\Utilities\Routes.php(102): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('get', 'C:\\')
+ 6 SYSTEMPATH\CLI\Commands.php(63): CodeIgniter\Commands\Utilities\Routes->run([])
+ 7 SYSTEMPATH\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('routes', [])
+ 8 SYSTEMPATH\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index([])
+ 9 SYSTEMPATH\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', [...])
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+11 SYSTEMPATH\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+13 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-01-05 03:11:32 --> login filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+ 2 SYSTEMPATH\Filters\Filters.php(369): CodeIgniter\Filters\Filters->enableFilter('login', 'before')
+ 3 SYSTEMPATH\Commands\Utilities\Routes\FilterFinder.php(60): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\Commands\Utilities\Routes\FilterCollector.php(59): CodeIgniter\Commands\Utilities\Routes\FilterFinder->find('C:\\')
+ 5 SYSTEMPATH\Commands\Utilities\Routes.php(102): CodeIgniter\Commands\Utilities\Routes\FilterCollector->get('get', 'C:\\')
+ 6 SYSTEMPATH\CLI\Commands.php(63): CodeIgniter\Commands\Utilities\Routes->run([])
+ 7 SYSTEMPATH\CLI\CommandRunner.php(65): CodeIgniter\CLI\Commands->run('routes', [])
+ 8 SYSTEMPATH\CLI\CommandRunner.php(51): CodeIgniter\CLI\CommandRunner->index([])
+ 9 SYSTEMPATH\CodeIgniter.php(918): CodeIgniter\CLI\CommandRunner->_remap('index', [...])
+10 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+11 SYSTEMPATH\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+13 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-01-05 03:14:03 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:14:37 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:15:02 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:15:06 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:15:19 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:15:45 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:16:21 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:16:24 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:16:53 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:16:55 --> syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:17:12 --> Class "App\Controllers\Modelproduct" not found
+in APPPATH\Controllers\Product.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:17:23 --> syntax error, unexpected token "use", expecting "{"
+in APPPATH\Controllers\Product.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:17:38 --> syntax error, unexpected token "public", expecting "," or ";" or "{"
+in APPPATH\Controllers\Product.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:17:51 --> syntax error, unexpected token "namespace", expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 5.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:18:08 --> syntax error, unexpected token "public", expecting "," or ";" or "{"
+in APPPATH\Controllers\Product.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:18:18 --> syntax error, unexpected end of file, expecting "," or ";"
+in APPPATH\Controllers\Product.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:28:17 --> Undefined variable $id
+in APPPATH\Views\viewtampilproduct.php on line 34.
+ 1 APPPATH\Views\viewtampilproduct.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\viewtampilproduct.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\viewtampilproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtampilproduct', [], true)
+ 5 APPPATH\Controllers\Product.php(10): view('viewtampilproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:28:25 --> Undefined property: stdClass::$mpname
+in APPPATH\Views\viewtampilproduct.php on line 35.
+ 1 APPPATH\Views\viewtampilproduct.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$mpname', 'APPPATH\\Views\\viewtampilproduct.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\viewtampilproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtampilproduct', [], true)
+ 5 APPPATH\Controllers\Product.php(10): view('viewtampilproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:30:30 --> Undefined property: stdClass::$mpname
+in APPPATH\Views\viewtampilproduct.php on line 35.
+ 1 APPPATH\Views\viewtampilproduct.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$mpname', 'APPPATH\\Views\\viewtampilproduct.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\viewtampilproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtampilproduct', [], true)
+ 5 APPPATH\Controllers\Product.php(10): view('viewtampilproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 03:30:40 --> Undefined property: stdClass::$mpprice
+in APPPATH\Views\viewtampilproduct.php on line 36.
+ 1 APPPATH\Views\viewtampilproduct.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$mpprice', 'APPPATH\\Views\\viewtampilproduct.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\viewtampilproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtampilproduct', [], true)
+ 5 APPPATH\Controllers\Product.php(10): view('viewtampilproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 04:12:08 --> Undefined variable $tampildata
+in APPPATH\Views\viewtambahdata.php on line 35.
+ 1 APPPATH\Views\viewtambahdata.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tampildata', 'APPPATH\\Views\\viewtambahdata.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\viewtambahdata.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtambahdata', [], true)
+ 5 APPPATH\Controllers\Product.php(14): view('viewtambahdata')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->adddata()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 04:16:12 --> syntax error, unexpected token ">"
+in APPPATH\Views\viewtambahdata.php on line 14.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtambahdata', [], true)
+ 3 APPPATH\Controllers\Product.php(14): view('viewtambahdata')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->adddata()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 04:29:23 --> syntax error, unexpected variable "$mp", expecting "function" or "const"
+in APPPATH\Controllers\Product.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 04:30:46 --> Unclosed '{' on line 5
+in APPPATH\Models\Modelproduct.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Modelproduct.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Modelproduct')
+ 3 APPPATH\Controllers\Product.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Modelproduct')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 04:31:02 --> Declaration of App\Models\Modelproduct::save($data) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\Modelproduct.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 04:32:38 --> Declaration of App\Models\Modelproduct::save($save) must be compatible with CodeIgniter\BaseModel::save($data): bool
+in APPPATH\Models\Modelproduct.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-01-05 04:39:44 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(23): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 04:39:44 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (:name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(23): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 04:40:04 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(23): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 04:40:04 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (:name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(23): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 04:53:52 --> mysqli_sql_exception: Column 'id' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(25): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 04:53:52 --> Column 'id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (:id:, :name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(25): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 04:54:11 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 04:54:11 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (:name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 04:56:04 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 04:56:04 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (:name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 04:58:23 --> mysqli_sql_exception: Column 'id' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(25): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 04:58:23 --> Column 'id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (:id:, :name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(25): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 04:58:28 --> mysqli_sql_exception: Column 'id' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(25): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 04:58:28 --> Column 'id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (:id:, :name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(25): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 05:01:20 --> Undefined variable $nomor
+in APPPATH\Controllers\Product.php on line 18.
+ 1 APPPATH\Controllers\Product.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nomor', 'APPPATH\\Controllers\\Product.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 05:01:59 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\Product.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 05:02:11 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\Product.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 05:02:12 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\Product.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:02:22 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:02:22 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (:name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:02:49 --> mysqli_sql_exception: Column 'id' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(26): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:02:49 --> Column 'id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (:id:, :name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(26): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:03:03 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(26): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:03:03 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (\'1\', \'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (\'1\', \'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (\'1\', \'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (:id:, :name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(26): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 05:04:25 --> Call to undefined method App\Controllers\Product::tampildata()
+in APPPATH\Controllers\Product.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:05:51 --> mysqli_sql_exception: Column 'id' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(25): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:05:51 --> Column 'id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (NULL, \'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`id`, `name`, `stock`, `price`) VALUES (:id:, :name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(25): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:10:39 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:10:39 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (:name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:11:01 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:11:01 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (:name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:11:04 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:11:04 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (\'1\', NULL, \'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `stock`, `price`) VALUES (:name:, :stock:, :price:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:12:07 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:12:07 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'1\', \'1\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'1\', \'1\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'1\', \'1\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (:name:, :price:, :stock:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:12:16 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:12:16 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (:name:, :price:, :stock:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:12:37 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:12:37 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (:name:, :price:, :stock:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:12:39 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:12:39 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (:name:, :price:, :stock:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-05 05:12:42 --> mysqli_sql_exception: Column 'stock' cannot be null in C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ci4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\ci4\app\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\ci4\app\Controllers\Product.php(24): App\Models\Modelproduct->simpan(Array)
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+#7 C:\xampp\htdocs\ci4\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 C:\xampp\htdocs\ci4\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-05 05:12:42 --> Column 'stock' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (\'Alexander Wisnuptra\', \'1\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `products` (`name`, `price`, `stock`) VALUES (:name:, :price:, :stock:)', [...], false)
+ 5 APPPATH\Models\Modelproduct.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Product.php(24): App\Models\Modelproduct->simpan([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->simpandata()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 05:32:07 --> syntax error, unexpected token "->", expecting ";"
+in APPPATH\Models\Modelproduct.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Modelproduct.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Modelproduct')
+ 3 APPPATH\Controllers\Product.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Modelproduct')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 05:32:24 --> syntax error, unexpected token "->", expecting ";"
+in APPPATH\Models\Modelproduct.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Modelproduct.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Modelproduct')
+ 3 APPPATH\Controllers\Product.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Modelproduct')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 05:33:02 --> Undefined constant "row"
+in APPPATH\Views\viewtampilproduct.php on line 42.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtampilproduct', [], true)
+ 4 APPPATH\Controllers\Product.php(10): view('viewtampilproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 05:33:34 --> syntax error, unexpected token "."
+in APPPATH\Views\viewtampilproduct.php on line 42.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtampilproduct', [], true)
+ 3 APPPATH\Controllers\Product.php(10): view('viewtampilproduct', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:10:30 --> syntax error, unexpected variable "$name", expecting ")"
+in APPPATH\Config\Routes.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:20:59 --> syntax error, unexpected variable "$name", expecting ")"
+in APPPATH\Config\Routes.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 4 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:21:08 --> syntax error, unexpected token "=>", expecting ")"
+in APPPATH\Models\Modelproduct.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\Modelproduct.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Modelproduct')
+ 3 APPPATH\Controllers\Product.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Modelproduct')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:27:51 --> syntax error, unexpected variable "$name", expecting ")"
+in APPPATH\Views\viewtampilproduct.php on line 55.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtampilproduct', [], true)
+ 3 APPPATH\Controllers\Product.php(10): view('viewtampilproduct', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:28:08 --> Undefined variable $name
+in APPPATH\Views\viewtampilproduct.php on line 55.
+ 1 APPPATH\Views\viewtampilproduct.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'APPPATH\\Views\\viewtampilproduct.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\viewtampilproduct.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtampilproduct', [], true)
+ 5 APPPATH\Controllers\Product.php(10): view('viewtampilproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 06:28:15 --> Undefined constant "name"
+in APPPATH\Views\viewtampilproduct.php on line 55.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('viewtampilproduct', [], true)
+ 4 APPPATH\Controllers\Product.php(10): view('viewtampilproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->index2()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:37:38 --> Request URI segment is out of range: 2
+in SYSTEMPATH\HTTP\URI.php on line 529.
+ 1 SYSTEMPATH\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+ 2 APPPATH\Controllers\Product.php(32): CodeIgniter\HTTP\URI->getSegment(2)
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->deletedata()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:44:42 --> Undefined variable $route
+in APPPATH\Config\Routes.php on line 43.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', 'APPPATH\\Config\\Routes.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(787): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:44:52 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\ci4\app\Config\Routes.php on line 43 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->get('/mahasiswa/hapus/(:any)')
+ 2 SYSTEMPATH\CodeIgniter.php(787): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 07:44:57 --> Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\ci4\app\Config\Routes.php on line 43 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 884.
+ 1 APPPATH\Config\Routes.php(43): CodeIgniter\Router\RouteCollection->get('/mahasiswa/hapus/(:any)')
+ 2 SYSTEMPATH\CodeIgniter.php(787): require('APPPATH\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:30:44 --> Undefined variable $stock
+in APPPATH\Models\Modelproduct.php on line 21.
+ 1 APPPATH\Models\Modelproduct.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stock', 'APPPATH\\Models\\Modelproduct.php', 21)
+ 2 APPPATH\Controllers\Product.php(46): App\Models\Modelproduct->ambildata('ROOTPATH\\public')
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->formedit()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:31:11 --> Undefined constant "App\Controllers\row"
+in APPPATH\Controllers\Product.php on line 50.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->formedit()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:31:45 --> Undefined variable $price
+in APPPATH\Controllers\Product.php on line 51.
+ 1 APPPATH\Controllers\Product.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $price', 'APPPATH\\Controllers\\Product.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:32:21 --> Undefined property: stdClass::$
+in APPPATH\Controllers\Product.php on line 50.
+ 1 APPPATH\Controllers\Product.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$', 'APPPATH\\Controllers\\Product.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:41:24 --> syntax error, unexpected single-quoted string "price", expecting "]"
+in APPPATH\Controllers\Product.php on line 61.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:41:36 --> Declaration of App\Models\Modelproduct::update($data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Modelproduct.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 08:41:53 --> Declaration of App\Models\Modelproduct::update($data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Modelproduct.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 08:41:54 --> Declaration of App\Models\Modelproduct::update($data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Modelproduct.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 08:43:27 --> syntax error, unexpected token "=>"
+in APPPATH\Controllers\Product.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:43:47 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Product.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:43:53 --> syntax error, unexpected variable "$data"
+in APPPATH\Controllers\Product.php on line 60.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(260): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Product.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(238): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Product')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Product')
+ 4 SYSTEMPATH\CodeIgniter.php(875): class_exists('\\App\\Controllers\\Product', true)
+ 5 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-05 08:44:00 --> Declaration of App\Models\Modelproduct::update($data, $name) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Modelproduct.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 08:44:30 --> Declaration of App\Models\Modelproduct::update($data, $name) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Modelproduct.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-05 08:45:00 --> Undefined property: stdClass::$
+in APPPATH\Controllers\Product.php on line 50.
+ 1 APPPATH\Controllers\Product.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$', 'APPPATH\\Controllers\\Product.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Product->formedit()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
